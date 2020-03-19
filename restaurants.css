@@ -1,0 +1,41 @@
+
+nav{
+  width: 100vw;
+  background-color: #D6EFFF;
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font: sans-serif;
+	list-style-type: none;
+	margin-right: 30px;
+} 
+
+nav a {
+	text-decoration: none;
+	color:red;
+} 
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
+.restaurant h2{
+	text-align: left;
+}
+.restaurant img {
+	width:400px;
+}
+restaurant{
+  border: solid lightblue 1px;
+  float: left;
+  width: 50%;
+} 
+/* Clear floats after the columns */
+.row:after {
+  content: “”;
+  display: table;
+  clear: both;
+} 
